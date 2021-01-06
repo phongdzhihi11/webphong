@@ -1,0 +1,16 @@
+{% extends 'home/base.html' %}
+{% block title %}Music{% endblock %}
+{% block content %}
+    <div class="block">
+        <h2>MUSIC</h2>
+        <div class="content">
+            {% for item in post %}
+                {% if item.theloai == "Music" %}
+                    <a href="{{ item.link }}" class="anh">
+                        <img src="{{ item.photo.url }}" alt="{{ item.ten }}">
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

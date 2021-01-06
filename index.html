@@ -1,0 +1,333 @@
+<html lang="en"><head>
+    
+    <meta charset="UTF-8">
+    <title>Trang Chủ</title>
+    <script type="text/javascript" src="/static/jquery-3.5.1.min.js">
+    </script>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/fontawesome-free-5.15.1-web/css/all.css">
+<style>
+      .glot-sub-active{
+        color: #1296ba !important;
+      }
+      
+      .glot-sub-hovered{
+        color: #1296ba !important;
+      }
+      .glot-sub-clzz{
+        cursor: pointer;
+      }
+      .glot-sub-clzz:hover{
+        color: #1296ba !important;
+      }
+      </style></head>
+<body>
+<div class="menu">
+    <ul>
+        <li><a href="#"> <img style="width: 150px" src="/static/img/transparent_logo.png" alt="logo"> </a></li>
+        <li><a href="/"> <i class="fas fa-home"></i> HOME </a></li>
+        <li><a href="/movies/"> <i class="fas fa-film"></i> Movies </a></li>
+        <li><a href="/music/"><i class="fas fa-headphones"></i> MUSIS </a></li>
+        <li><a href="/videogame/"><i class="fas fa-photo-video"></i> VIDEO GAMES </a>
+            
+            
+            
+            
+    </li></ul>
+</div>
+<div class="slide">
+    <img id="slide" onclick="change_image()" src="/static/img/slide/anhdong1.jpg" alt="">
+    <script>
+        let index = 1;
+
+        function change_image() {
+            var imgs = [
+                "/static/img/slide/anhdong1.jpg",
+                "/static/img/slide/anhdong2.jpg",
+                "/static/img/slide/anhdong3.jpg",
+                "/static/img/slide/anhdong6.jpg",
+                "/static/img/slide/anhdong7.jpg",
+                "/static/img/slide/anhdong8.jpg",
+            ];
+            document.getElementById('slide').src = imgs[index];
+            index++;
+            if (index === 6) {
+                index = 0;
+            }
+        }
+
+        setInterval(change_image, 2000);
+    </script>
+</div>
+<div class="center">
+    
+    <div class="block">
+        <h2>MOVIES</h2>
+        <div class="content">
+            
+                
+                    <a href="https://www.fullphim.net/phim/chung-ta-bat-dau-yeu-sau-khi-cuoi" class="anh">
+                        <img src="/media/5f9ab0ee4c502b047a7674e8_poster-chung-ta-bat-dau-yeu-sau-khi-cuoi.jpg" alt="Chúng Ta Bắt Đầu Yêu Sau Khi Cưới">
+                    </a>
+                
+            
+                
+            
+                
+                    <a href="https://assets-global.website-files.com/5f4cf35320d6aff961fc8cff/5fca21d4362355dc60e11dd8_poster-dai-tan-phu-dai-tan-de-quoc.jpg" class="anh">
+                        <img src="/media/5fca21d4362355dc60e11dd8_poster-dai-tan-phu-dai-tan-de-quoc.jpg" alt="Đại Tần Phú/Đại Tần Đế Quốc - The Qin Empire 4 (2020)">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/nhu-y-phuong-phi-r3" class="anh">
+                        <img src="/media/5f902bec8b72cfe4dca4feee_poster-nhu-y-phuong-phi.jpg" alt="Như Ý Phương Phi">
+                    </a>
+                
+            
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/tho-san-tam-trach-psych-hunter-2020" class="anh">
+                        <img src="/media/5fb6606e78c15db5d08ca882_poster-tho-san-tam-trach.jpg" alt="Thợ Săn Tâm Trạch - Psych-Hunter (2020)">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/hy-vong-hope-2013" class="anh">
+                        <img src="/media/5fca34d11251f18688bdbbaa_hope.jpg" alt="Hy Vọng - Hope (2013)">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/chu-cho-togo-togo-2019" class="anh">
+                        <img src="/media/5fc8fb26c1b1d00dde3b43ee_togo.jpg" alt="Chú Chó Togo - Togo (2019)">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/cuoc-goi-the-call" class="anh">
+                        <img src="/media/5fc7bb2a192a538e4546e27e_the-call.jpg" alt="Cuộc Gọi - The Call">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/dai-chien-nguoi-khong-lo-phan-4-attack-on-titan-season-4" class="anh">
+                        <img src="/media/5fc8ef77b7aa921a3e690004_poster-attack-on-titan-season-4_5RSqrC6.jpg" alt="Đại chiến người khổng lồ (phần 4) - Attack on Titan (season 4)">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/song-don-trang-len-river-where-the-moon-rises-2020" class="anh">
+                        <img src="/media/5fc792580767cd8ad1956685_poster-song-don-trang-len.jpg" alt="Sông Đón Trăng Lên - River Where The Moon Rises (2020)">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/khuynh-the-cam-lan-coc-vu-lai" class="anh">
+                        <img src="/media/5fc103b4ee25286c48cf5320_poster-khuynh-the-cam-lan-coc-vu-lai.jpg" alt="Khuynh Thế Cẩm Lân Cốc Vũ Lai">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/everyone-is-there-2020-moi-nguoi-deu-o-do" class="anh">
+                        <img src="/media/5fb3c7807adb9a75797fd103_everyone-is-there.jpg" alt="Everyone Is There (2020) - Mọi Người Đều Ở Đó">
+                    </a>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </div>
+    <div class="block">
+        <h2>MUSIC</h2>
+        <div class="content">
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <a href="https://zingmp3.vn/video-clip/How-You-Like-That-BLACKPINK/ZWBU778A.html" class="anh">
+                        <img src="/media/e2673045d3bd5a01cbd287e8c445bfb0.jpg" alt="How You Like That
+
+BLACKPINK">
+                    </a>
+                
+            
+                
+                    <a href="https://zingmp3.vn/video-clip/Chang-The-Giu-Lay-Chang-Danh-Buong-Tay-Ngo-Kien-Huy/ZWDCBBDC.html" class="anh">
+                        <img src="/media/chang_the_giu_lay_chang_danh_buong_tay_poster_.jpg" alt="Chẳng Thể Giữ Lấy Chẳng Đành Buông Tay
+
+Ngô Kiến Huy">
+                    </a>
+                
+            
+                
+                    <a href="https://zingmp3.vn/video-clip/Bigcityboi-Binz-Touliver/ZWBUA8B8.html" class="anh">
+                        <img src="/media/632e552c21150fa205f402ed3cf44614.600x600x1.jpg" alt="Bigcityboi
+
+Binz, Touliver">
+                    </a>
+                
+            
+                
+                    <a href="https://zingmp3.vn/video-clip/Em-Khong-Sai-Chung-Ta-Sai-ERIK/ZWBOWD78.html" class="anh">
+                        <img src="/media/71zv6iP2YQL._SS500_.jpg" alt="Em Không Sai Chúng Ta Sai
+
+ERIK">
+                    </a>
+                
+            
+                
+                    <a href="https://zingmp3.vn/video-clip/Sao-Anh-Chua-Ve-Nha-AMEE-Ricky-Star/ZWBIC768.html" class="anh">
+                        <img src="/media/80dbe107791c8c539e7d724593798e68.720x720x1.jpg" alt="Sao Anh Chưa Về Nhà
+
+AMEE, Ricky Star">
+                    </a>
+                
+            
+                
+                    <a href="https://zingmp3.vn/video-clip/Simple-Love-Obito-Seachains-Davis/ZWAFIZAZ.html" class="anh">
+                        <img src="/media/5dab1b47108ee-batchkay01259.jpg" alt="Simple Love
+
+Obito, Seachains, Davis">
+                    </a>
+                
+            
+                
+                    <a href="https://zingmp3.vn/video-clip/Nuoc-Mat-Em-Lau-Bang-Tinh-Yeu-Moi-Da-LAB-Toc-Tien/ZWAEB6CF.html" class="anh">
+                        <img src="/media/116140.jpg" alt="Nước Mắt Em Lau Bằng Tình Yêu Mới
+
+Da LAB, Tóc Tiên">
+                    </a>
+                
+            
+                
+                    <a href="https://zingmp3.vn/video-clip/Vi-Yeu-Cu-Dam-Dau-MIN-Den-JustaTee/ZWAF6UFD.html" class="anh">
+                        <img src="/media/112052.jpg" alt="Vì Yêu Cứ Đâm Đầu
+
+MIN, Đen, JustaTee">
+                    </a>
+                
+            
+                
+            
+                
+            
+        </div>
+    </div>
+    <div class="block">
+        <h2>MOVIES GAMES</h2>
+        <div class="content">
+            
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/tieu-phong-bao-hoa-hong-thoi-gian" class="anh">
+                        <img src="/media/5fc65e9c6f85f210716b4c1e_poster-phim-tieu-phong-bao-hoa-hong-thoi-gian.jpg" alt="Tiểu Phong Bạo: Hoa Hồng Thời Gian">
+                    </a>
+                
+            
+                
+            
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/dai-chien-nguoi-khong-lo-phan-4-attack-on-titan-season-4" class="anh">
+                        <img src="/media/5fc8ef77b7aa921a3e690004_poster-attack-on-titan-season-4.jpg" alt="Đại chiến người khổng lồ (phần 4) - Attack on Titan (season 4)">
+                    </a>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <a href="https://www.fullphim.net/p/xem-phim-lau-dai-di-dong-cua-howl-howls-moving-castle" class="anh">
+                        <img src="/media/4ac4ee1136fb0feac9e36697828db204.jpg" alt="Xem Phim Lâu Đài Di Động Của Howl - Howl’s Moving Castle">
+                    </a>
+                
+            
+                
+                    <a href="https://www.fullphim.net/phim/toan-chuc-cao-thu-phan-2" class="anh">
+                        <img src="/media/poster.medium.jpg" alt="Toàn Chức Cao Thủ (phần 2) - The King's Avatar 2 (2020)">
+                    </a>
+                
+            
+        </div>
+    </div>
+
+
+</div>
+
+
+<iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe><div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div></body></html>
